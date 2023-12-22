@@ -42,13 +42,13 @@ public:
         int thirdNum=1;
         int fourthNum;
 
-        for(int i=1;i<=n;i++){
+        for(int i=3;i<=n;i++){
             fourthNum=firstNum + secondNum + thirdNum;
             firstNum=secondNum;
             secondNum=thirdNum;
             thirdNum=fourthNum;
         }
 
-        return firstNum;  
+        return thirdNum;
     }
 };
